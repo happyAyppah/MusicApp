@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        // Create an ArrayList of AndroidFlavor objects
+        // Create an ArrayList of Music objects
         ArrayList<Music> musics = new ArrayList<Music>();
         musics.add(new Music("El_bano", "Enrique", "3:00", R.drawable.song1));
         musics.add(new Music("Know it all", "Alessia Cara", "3:00", R.drawable.song2));

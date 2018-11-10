@@ -3,24 +3,24 @@ package com.example.android.musicappnanodegree;
 public class Music {
 
 
-    // Name of the Android version (e.g. Gingerbread, Honeycomb, Ice Cream Sandwich)
+    // Name of the Song
     private String mSongName;
 
-    // Android version number (e.g. 2.3-2.7, 3.0-3.2.6, 4.0-4.0.4)
+    // Name of the Artist
     private String mArtistName;
 
-    // Android version number (e.g. 2.3-2.7, 3.0-3.2.6, 4.0-4.0.4)
+    // Length of the Song
     private String mSongLength;
 
     // Drawable resource ID
     private int mImageResourceId;
 
     /*
-     * Create a new AndroidFlavor object.
+     * Create a new Music object.
      *
-     * @param vName is the name of the Android version (e.g. Gingerbread)
-     * @param vNumber is the corresponding Android version number (e.g. 2.3-2.7)
-     * @param image is drawable reference ID that corresponds to the Android version
+     * @param vName is the name of the Song Name
+     * @param mArtistName is the corresponding Artist Name
+     * @param mSongLength is the corresponding Song Length
      * */
     public Music(String vName, String vArtist,  String vLength, int imageResourceId)
     {
@@ -31,21 +31,21 @@ public class Music {
     }
 
     /**
-     * Get the name of the Android version
+     * Get the name of the Song
      */
     public String getSongName() {
         return mSongName;
     }
 
     /**
-     * Get the Android version number
+     * Get the Artist Name
      */
     public String getArtistName() {
         return mArtistName;
     }
 
     /**
-     * Get the Android version number
+     * Get the Song Length
      */
     public String getSongLength() {
         return mSongLength;
