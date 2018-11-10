@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MusicAppNanoDegree</string>
+    <string name="music_app">Music App</string>
+    <string name="song_currently">End Game - Taylor Swift</string>
+    <string name="home">Home</string>
+    <string name="playlist">Your Playlist</string>
+</resources>
+
